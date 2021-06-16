@@ -1,89 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shapoval</title>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      background-image: url(./img/bg.jpg);
+      margin: 0;
+    }
+
+    td {
+      font-size: 1em;
+      padding: 5px 7px;
+      border: 1px solid #c912f7
+    }
+
+    th {
+      padding: 10px;
+      border: 1px solid #c912f7
+    }
+
+    table {
+      border-collapse: collapse;
+      line-height: 1.1;
+      text-align: center;
+    }
+
+    li {
+      padding-bottom: 5px;
+    }
+
+    form {
+      width: 500px;
+      margin: 0 auto;
+    }
+
+    textarea {
+      vertical-align: top;
+    }
+  </style>
 </head>
+
 <body>
-  <header>
-    <div width = 30%>
-      <span>Контакты:</span>
-      <ul>
-        <li>+380556667777</li>
-        <li>+799900665554</li>
-      </ul>
-    </div>
+  <div style="padding: 1% 5% 0 5%;">
+    <header>
+      <table width='90%'>
+        <tr>
+          <td width='20%' style='border: none;'>
+            <span>Контакты:</span>
+            <ul>
+              <li><a href="callto:+380556667777">+380556667777</a> </li>
+              <li><a href="callto:+799900665554">+799900665554</a> </li>
+            </ul>
+          </td>
+          <td width='60%' style='border: none'>
+            <img src="./img/logo_star.png" alt="logo">
+          </td>
+          <td width='20%' style='text-align: right; border : none'>
+            <a href="mailto:shapovalvv12@gmail.com">Написать письмо</a>
+          </td>
+        </tr>
+      </table>
+    </header>
 
-    <style>
-      body { font-family : sans-serif}
-      td {
-    font-size: 0.8em;
-    padding: 5px 7px;
-    border: 1px solid #f7890c;
-        }
-      th{
-        padding: 10px;
-        border: 1px solid #f7890c;
-      }
-      table {
-    border-collapse: collapse;
-    line-height: 1.1;
-    margin: 10px}
-    </style>
-  </header>
+    <h1 style='text-align: center'>Артисты на праздник</h1>
 
-  <h1>Артисты на свадьбу</h1>
+    <p>Мы предлагаем вам большой выбор шоу, например :</p>
 
-  <p>Мы предлагаем вам большой выбор шоу, например</p>
+    <ul>
+      <li>
+        Огненное шоу
+      </li>
+      <li>
+        Неоновое шоу
+      </li>
+      <li>
+        Ходулисты
+      </li>
+    </ul>
 
-  <ul>
-    <li>
-      Огненное шоу 
-    </li>
-    <li>
-      Cветодиодное шоу
-    </li>
-    <li>
-      Пиксельное шоу
-    </li>
-    <li>
-      Ходулисты
-    </li>
-  </ul>
+    <hr>
+    <h2>Преимущества работы с нами</h2>
 
-  <h2>Прайс услуг</h2>
+    <ol>
+      <li>
+        Мы - команда профессиональных артистов, работающая вместе уже более 10-ти лет, и готовая ко всему.
+      </li>
+      <li>
+        Мы <i>индивидуально</i> подходим к каждому клиенту и учитываем тематику торжества. Романтические фотографии на
+        фоне огненного сердца, искорки в глазах именинника при виде его пылающего имени, огненный логотип вашей компании
+        по специальному заказу, — все это подчеркнет торжественность мероприятия.
+      </li>
+      <li>
+        Мы предлагаем формат выступления для открытых площадок любого размера. Будь-то уютный дворик перед банкетным
+        залом
+        или же главная сцена музыкального фестиваля.
+      </li>
+      <li>
+        Мы гарантируем <strong>безопасность</strong> проведения фаер шоу. Перед работой мы детально уточняем особенности
+        площадки, наличие навесных конструкций и деревьев. Также используем специальные стойки для реквизита, что
+        позволяет избежать повреждения покрытия.
+      </li>
+      <li>
+        Предлагаем большое количество <em>акций и скидок</em> постоянным клиентам.
+      </li>
+    </ol>
+    <hr>
+    <table width=90%>
+      <caption style='font-size: 30px; padding-bottom: 20px;'> Прайс услуг</caption>
+      <tr>
+        <td width=45% style='border: none;'>
+          <img src="./img/fireshow.jpg" width='90%' alt="фаер шоу">
+        </td>
+        <td style='border: none;'>
+          <table width='100%'>
+            <tr>
+              <th colspan='3'> Огненное шоу</th>
+            </tr>
+            <tr>
+              <th>Артисты</th>
+              <th>Длительность</th>
+              <th>Цена</th>
+            </tr>
 
-  <img src="./img/fireshow.jpg" width = 40% alt="фаер шоу">
+            <tr>
+              <td>2</td>
+              <td>10 минут</td>
+              <td>150 $</td>
+            </tr>
 
-  <table width = 50%>
-    <tr><th colspan = '3'> Огненное шоу</th></tr> 
-    <tr><th>Артисты</th>
-      <th>Длительность</th>
-      <th>Цена</th></tr>
- 
+            <tr>
+              <td>5</td>
+              <td>15 минут</td>
+              <td>400 $</td>
+            </tr>
 
-    <tr>
-      <td>2</td>
-      <td>10 минут</td>
-      <td>100 $</td>
-    </tr>
+            <tr>
+              <td>6</td>
+              <td>25 минут</td>
+              <td>700 $</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
 
-    <tr>
-      <td>5</td>
-      <td>15 минут</td>
-      <td>400 $</td>
-    </tr>
+      <tr>
+        <td style='border: none;'>
+          <table width='100%'>
+            <tr>
+              <th colspan='3'> Неоновое шоу</th>
+            </tr>
+            <tr>
+              <th>Артисты</th>
+              <th>Длительность</th>
+              <th>Цена</th>
+            </tr>
 
-    <tr>
-      <td>6</td>
-      <td>25 минут</td>
-      <td>700 $</td>
-    </tr>
+            <tr>
+              <td>5</td>
+              <td>8 минут</td>
+              <td>300 $</td>
+            </tr>
 
-  </table>
+            <tr>
+              <td>7</td>
+              <td>10 минут</td>
+              <td>500 $</td>
+            </tr>
 
-  
+            <tr>
+              <td>10</td>
+              <td>15 минут</td>
+              <td>900 $</td>
+            </tr>
+          </table>
+        </td>
+        <td style='border: none;'>
+          <img src="./img/ledshow.jpg" width='80%' alt="неоновое шоу">
+        </td>
+      </tr>
+
+      <tr>
+        <td style='border: none;'>
+          <img src="./img/stilts.jpeg" width=90% alt="ходулисты">
+        </td>
+        <td style='border: none;'>
+          <table width='100%'>
+            <tr>
+              <th colspan='3'> Ходулисты</th>
+            </tr>
+            <tr>
+              <th>Артисты</th>
+              <th>Длительность</th>
+              <th>Цена</th>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>1 час</td>
+              <td>200 $</td>
+            </tr>
+
+            <tr>
+              <td>7</td>
+              <td>2 часа</td>
+              <td>500 $</td>
+            </tr>
+
+            <tr>
+              <td>8</td>
+              <td>2,5 часа</td>
+              <td>800 $</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <hr>
+    <p>Остались вопросы? Наш менеджер знает ответ! Укажите свои контактные данные ниже и мы <b>перезвоним</b> в удобное
+      для Вас время. </p>
+
+    <form action="mailto:shapovalvv12@gmail.com" enctype="text/plain" method='POST'>
+      <fieldset>
+        <legend>Контакная информация</legend>
+        <p><label for='name'>Имя</label>
+          <input type='text' id='name' name='name'>
+        </p>
+        <p><label for='phone'>Номер телефона</label>
+          <input type='tel' id='phone' name='phone' placeholder="+38 088 888 8888" required>
+        </p>
+        <p>Укажите удобное время для звонка
+          <label for='msg'></label>
+          <textarea name="user_message" id="msg" cols="40" rows="3"></textarea>
+        </p>
+        <p>
+          <button type='submit'>Отправить</button>
+        </p>
+      </fieldset>
+    </form>
+
+    <p>Всегда лучше один раз увидеть, чем сто раз услышать! Закажите шоу на свой праздник и убедитесь сами!</p>
+  </div>
+
+  <footer style="background-color: #d5b1df; width: 90%; padding: 0 5%">
+    <table width='90%'>
+      <tr>
+        <td style='border: none; width: 50%'>
+          <img src="./img/logo_star.png" height="100px" alt="logo">
+        </td>
+        <td style='border: none'>
+          <p>Мы в социальных сетях
+          <p>
+            <a href="https://www.facebook.com/"> <img src="./img/fb.jpg" alt="facebook" height='30px'
+                style="margin-right: 10px;"></a>
+            <a href="https://www.instagram.com/"> <img src="./img/instagram.jpg" alt="instagram" height='30px'
+                style="margin-right: 10px;"></a>
+            <a href="https://www.vk.com/"> <img src="./img/vk.jpg" alt="vk" height='30px'></a>
+        </td>
+      </tr>
+    </table>
+  </footer>
+
 </body>
+
 </html>
