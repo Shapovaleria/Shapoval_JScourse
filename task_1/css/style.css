@@ -55,6 +55,18 @@ textarea:focus {
   background-color: #f8e7d2
 }
 
+button {
+  background-color: #e57ef3;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 10px;;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #f0dbaf;
+}
+
 footer {
   background-color: #d5b1df; width: 90%; padding: 0 5%
 }
