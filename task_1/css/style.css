@@ -30,13 +30,19 @@ li {
   padding-bottom: 5px;
 }
 
+.no-list-item {
+  list-style-type: none;
+}
 a {
   text-decoration: none;
   cursor: pointer;
   color: #000;
 }
 
-.header-link:hover {
+.contacts-link {
+  list-style-type: none;
+}
+.contacts-link:hover {
   background-color: #fcf0e1;
   padding: 3px 0;
 }
@@ -88,7 +94,8 @@ button:hover {
 }
 
 footer {
-  background-color: #d5b1df; width: 90%; padding: 0 5%
+  background-color: #d5b1df;
+   padding: 0 5%
 }
 
 .violet {
