@@ -1,13 +1,14 @@
 body {
   font-family: sans-serif;
   background-image: url(../img/bg.jpg);
+  background-size: cover;
   margin: 0;
 }
 
 table {
   border-collapse: collapse;
   line-height: 1.1;
-  text-align: center;
+  text-align:center;
 }
 td {
   font-size: 1em;
@@ -20,6 +21,11 @@ th {
   border: none;
 }
 
+caption {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
 li {
   padding-bottom: 5px;
 }
@@ -30,10 +36,22 @@ a {
   color: #000;
 }
 
-a:hover {
+.header-link:hover {
   background-color: #fcf0e1;
+  padding: 3px 0;
 }
 
+.genres-link:hover {
+  background-color: #fcf0e1;
+  padding: 5px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+.main {
+  padding: 1% 5% 0 5%;
+}
 form {
   width: 400px;
   margin: 0 auto;
@@ -44,27 +62,29 @@ input {
   cursor: pointer;
 }
 
-input :focus{
-  background-color: #f8e7d2;
+input:focus{
+  background-color: #fcf0e1;
 }
 
 textarea {
   vertical-align: top;
 }
 textarea:focus {
-  background-color: #f8e7d2
+  background-color: #fcf0e1
 }
 
 button {
   background-color: #e57ef3;
   padding: 5px 10px;
   text-align: center;
-  border-radius: 10px;;
+  border: none;
+  border-radius: 10px;
+  margin-left: 30%;
 }
 
 button:hover {
   cursor: pointer;
-  background-color: #f0dbaf;
+  background-color: #c88fe2;
 }
 
 footer {
